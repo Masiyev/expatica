@@ -1,0 +1,388 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #eeeeee
+	;
+	font: 13px Arial;
+}
+ul li{
+	list-style:none;
+}
+p{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	margin:0px;
+	padding: 0px;
+}
+nav{
+	width: 100%;
+	background-color: #ffffff
+	;
+	;
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+}
+.navbar{
+	padding-top:10px;
+	padding-bottom: 10px;
+	width: 70%;
+	margin: auto;	
+	min-height: 40px;
+}
+.nav-items ul li{
+	width: 25%;
+	float:left;
+	text-align:center;
+}
+.navbar:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+ul{
+	margin:0px;
+}
+.site-logo{
+	float:left;
+	width: 10%;
+}
+.nav-items{
+	float:left;
+	width: 100%;/**/
+}
+.site-navigation{
+	width: 90%;
+	float:right;
+	margin-top: 20px;
+}
+.navigation-section-content:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.search-section-content{
+	clear:both;
+	float:none;
+	width:100%;
+	margin: auto;
+	margin-top: 10px;
+}
+.search-section-content .search-input{
+	width: 88%;
+	text-indent: 32px;
+	border-right:none;
+	float:left;
+}
+.search-section-content .search-input input{
+	height: 25px; /* 2px padding */
+	width: 100%;
+	background-image: url("../images/magnifying-glass.png");
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	background-position: 7px center;
+	background-color: #FFD54F;
+	text-indent: 32px;
+	border:none;
+	float:left;
+	display:block;
+	color: #1F7C9C;
+}
+
+.search-section-content .search-button{
+	width: 11.4%;
+	border-left:none;
+	float:left;
+	display:block;
+
+}
+.search-section-content .search-button button{
+	height: 27px;
+	width: 100%;
+	border: none;
+	background-color: #1F7C9C;
+	color: #FFD54F;
+
+}
+.search-section-content:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+ul li a{
+	text-decoration:none;
+	color: #1F7C9C;
+}
+
+main{
+	width:100%;
+	margin:auto;
+	min-height: 500px;
+	background-color: #FFD54F;
+
+}
+.main-content{
+	width:70%;
+	margin:auto;	
+	background-color: #
+	margin-bottom: 5px;;
+	min-height: 400px;
+}
+.profile-left-column{
+	width: 29%;
+	min-height: 100px;
+	float: left;
+	margin-top: 25px;
+}
+.space-between-columns{
+	width: 2%;
+	min-height: 100px;
+	//background-color: red;
+	float:left;
+}
+.profile-right-column{
+	width: 69%;
+	min-height: 100px;
+	float: left;
+	margin-top: 25px;
+}
+.main-content:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.left-column{
+	margin-bottom: 15px;
+	background-color: #FBC02D;
+	padding: 10px;
+	min-height: 100px;
+	
+	box-shadow: 1px 1px 1px #455A64;
+}
+.right-column{
+	
+	margin-bottom: 15px;
+	background-color: #FBC02D;
+	padding: 10px;
+	min-height: 200px;
+
+	box-shadow: 1px 1px 1px #455A64;
+}
+header{
+	margin-top: 93px !important;
+	width: 100%;
+	background-color:#1F7C9C;
+}
+
+.header-content{
+	width: 70%;
+	margin:auto;
+	padding-top:25px;
+	padding-bottom: 25px;
+	position: sticky;
+  	top: 60px;
+}
+
+.profile-pic{
+	width:122px;
+	float:left;	
+	margin-right: 36px;
+	border-radius: 100%;
+	height:122px;
+	background-image: url("../images/placeholder-image.png");
+	background-position: center;
+	background-size: 122px 122px;
+	background-repeat: no-repeat;
+}
+.profile-general-info{
+	float:left;
+	width: 60%;
+	padding: 10px 0 10px 0;
+}
+.user-header-card:after{
+	content:"";
+	display:block;
+	clear:both;
+	
+}
+.user-header-card{
+	background-color: #FFFFFF;
+	padding: 25px;
+	box-shadow: 6px 6px 7px #455A64;
+}
+
+.logo{
+	height:32px;
+	width: 32px;
+}
+
+/* Media Quieries*/
+
+
+@media screen and (max-width: 768px){
+	
+	
+	.site-logo{
+		width: 100%;
+		float: none;	
+		clear:both;
+	}
+	.site-logo .logo{
+		margin:auto;
+	}
+	.site-navigation{
+		float:none;
+		clear:both;
+		margin: auto;
+		margin-top: 10px;
+	}
+	.site-navigation:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+
+	header{
+	margin-top: 109px !important;
+	}
+
+	.profile-pic{
+		float:none;
+		margin:auto;
+		clear:both;
+
+	}
+	.profile-general-info{
+		float:none;
+		clear:both;
+		margin:auto;
+		text-align:center;
+	}
+
+	.search-section-content button, input{
+		font-size:10px;
+	}
+	.search-section-content .search-input input{
+		height: 20px;
+	}
+	.search-section-content .search-button button{
+		height: 22px;
+	}
+
+	/**************/
+	.profile-left-column{
+		width: 100%;
+		min-height: 100px;
+		margin-top: 25px;
+		clear:both;
+		float:none;
+	}
+	.profile-right-column{
+		width: 100%;
+		min-height: 100px;
+		margin-top: 25px;
+		clear:both;
+		float:none;
+	}
+	.left-column{
+		margin-bottom: 15px;
+		background-color: #FBC02D;
+		padding: 10px;
+		min-height: 100px;
+	}
+	.right-column{
+
+		margin-bottom: 15px;
+		background-color: #FBC02D;
+		padding: 10px;
+		min-height: 200px;
+	}
+	.space-between-columns{
+		min-height:0px;
+	}
+	.main-content{
+		overflow:auto;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+	body{
+		background-color:purple;
+	}
+	.menu-dropdown-icon{
+		width: 100%;
+		height:24px;
+		margin:auto;
+		margin-top: 10px;
+		background-image: url("../images/menu.png");
+		background-size: 24px 24px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: #BDBDBD;
+		cursor: pointer;
+		padding: 5px 0 5px 0;
+
+	}
+	.site-navigation{
+		margin:0px;
+		float:none;
+		clear:both;
+		overflow:hidden;
+		height: 0px;
+		border:none;
+		background-color: #607D8B;
+		width: 100%;
+	}
+	.site-navigation .nav-items li{
+		float:none;
+		clear: both;
+		text-align:left;
+		width: 100%;
+	}
+	.site-navigation .nav-items li a{
+		border-bottom: 1px solid white;
+		display:block;
+		margin-top: 15px;
+		padding: 10px;
+		font-size: 17px;
+	}
+
+	.dropdown-open{
+		height: auto;
+	}
+	.search-open{
+		display: none
+	}
+
+	header{
+	margin-top: 95px !important;
+	}
+
+	.navbar{
+		width:100%;
+	}
+	.header-content{
+		width: 100%;
+		padding:0px;
+	}
+	.user-header-card{
+		background-color:#1F7C9C;
+		color: white;
+	}
+	.profile-pic{
+		border: 3px solid #EEEEEE;
+	}
+	.search-section-content{
+		margin-top:0px;
+	}
+	.search-section-content .search-input input{
+		height: 17px; /* 2px padding */
+	}
+	.search-section-content .search-button button{
+		height: 19px;
+	}
+	
+}
